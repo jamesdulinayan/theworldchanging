@@ -1,0 +1,37 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+section
+{
+	padding: 0 100px;
+	background: url(diagoona-bg-2.JPG);
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.box
+{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;  
+	background: rgba(255,255,255,.2); 
+	box-shadow: 0 5px 15px rgb(0,0,0,.5);
+}
+.box h2
+{
+	margin: 0 0 20px; 
+	padding: 0;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #f3f2f2;
+}
+.box p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
